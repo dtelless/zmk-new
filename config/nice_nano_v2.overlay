@@ -27,8 +27,8 @@
         reg = <0>;
         spi-max-frequency = <4000000>;
 
-        /* Número máximo de LEDs por lado do Sofle v2.1 RGB */
-        chain-length = <30>; 
+        /* Número máximo de LEDs por lado do Sofle v2.1 RGB (30 teclas + 6 bottom underglow) */
+        chain-length = <36>; 
         spi-one-frame = <0x70>;
         spi-zero-frame = <0x40>;
         color-mapping = <LED_COLOR_ID_GRB>;
