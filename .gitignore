@@ -1,0 +1,4 @@
+# ZMK local cache and build artifacts
+.zmk/
+build/
+*.uf2
